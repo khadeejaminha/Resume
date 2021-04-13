@@ -1,0 +1,70 @@
+body{
+    Margin-left: 6rem;
+    font-family: helvetica;
+    color: cornsilk;
+    background-image: linear-gradient(to right top, #496864,#4D6D69,#557974,#66908B,#87AAA5,#92B2AE);
+
+}
+.main{
+    margin-top: 10rem;
+}
+.head{
+    text-align: left;
+    margin-left: 30rem;
+    font-size: 3vh;
+    
+}
+.name{
+    font-size: 2rem;
+    font-family: bookman;
+
+}
+.outer{
+    background-color: #4D6D69;
+    margin-right: 6rem;
+    padding: 5rem;
+    padding-top: 4rem;
+    font-size: 3rem;
+}
+#det{
+    text-align: right;
+    margin: 1rem;
+    font-size: 1rem;
+}
+#res{
+    text-align: left 1rem;
+    margin-left: 30rem;
+    font-size: 1.25rem;
+}
+#hr{
+    width: 70%;
+    margin-left: 20rem;
+}
+.anim{
+    width:23%;
+    height: 80%;
+    background-color: #051937;
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    background-size:100% 100%; 
+    background-image: url('https://image.freepik.com/free-photo/man-laptop-with-tablet-taking-coffee_23-2147826879.jpg');
+    animation-name: slider;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+   0%{
+    background-image: url('https://www.mockupblast.com/wp-content/uploads/2017/04/Man-Using-Laptop-Mockup.jpg');
+   }
+   35%{
+    background-image: url('https://st.focusedcollection.com/14026668/i/650/focused_258119542-stock-photo-man-laptop-woman-tablet-home.jpg');
+   }
+   75%{
+    background-image: url('https://image.freepik.com/free-photo/man-typing-laptop-top-view_23-2148377691.jpg')
+   }
+}
+#tab{
+    margin-left: 44rem;
+    font-size: 1.25rem;
