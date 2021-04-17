@@ -49,22 +49,23 @@ body{
     left:20%;
     transform:translate(-50%,-50%);
     background-size:100% 100%; 
-    background-image: url('https://image.freepik.com/free-photo/man-laptop-with-tablet-taking-coffee_23-2147826879.jpg');
+    background-image: url('https://images.pexels.com/photos/4050290/pexels-photo-4050290.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     animation-name: slider;
     animation-duration:5s;
     animation-iteration-count: infinite;
 }
 @keyframes slider{
    0%{
-    background-image: url('https://www.mockupblast.com/wp-content/uploads/2017/04/Man-Using-Laptop-Mockup.jpg');
+    background-image: url('https://i2.wp.com/picjumbo.com/wp-content/uploads/woman-entrepreneur-working-on-her-modern-laptop.jpg?resize=350%2C200&ssl=1')
    }
    35%{
-    background-image: url('https://st.focusedcollection.com/14026668/i/650/focused_258119542-stock-photo-man-laptop-woman-tablet-home.jpg');
+    background-image: url('https://live.staticflickr.com/805/40640189245_414511a60d_b.jpg');
    }
    75%{
-    background-image: url('https://image.freepik.com/free-photo/man-typing-laptop-top-view_23-2148377691.jpg')
+    background-image: url('https://www.cuinsight.com/wp-content/uploads/2020/04/bigstock-Woman-Working-On-Laptop-From-H-354464249.jpg')
    }
 }
 #tab{
     margin-left: 44rem;
     font-size: 1.25rem;
+}
